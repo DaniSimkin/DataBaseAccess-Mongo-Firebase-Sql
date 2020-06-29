@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <EditText
+        android:id="@+id/imageName_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search For Image"
+        android:textAlignment="center"
+        android:maxLength="25"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/imageName_ET"
+        android:src="@drawable/ic_image_default"
+        android:scaleType="centerCrop"
+        android:onClick="selectImage"/>
+
+    <Button
+        android:id="@+id/save_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Image"
+        android:layout_below="@+id/image"
+        android:background="#fece2f"
+        android:textAllCaps="true"
+        android:onClick="storeImage"/>
+
+    <Button
+        android:id="@+id/showImagesActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_image_btn"
+        android:background="#fece2f"
+        android:layout_marginTop="2dp"
+        android:text="Show Stored Images"
+        android:textAllCaps="true"
+        android:onClick="showAllImages"/>
+
+
+</RelativeLayout>

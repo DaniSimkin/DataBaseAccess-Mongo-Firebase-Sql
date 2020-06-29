@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "682033556419",
+    "firebase_url": "https://databaseaccess-b400a.firebaseio.com",
+    "project_id": "databaseaccess-b400a",
+    "storage_bucket": "databaseaccess-b400a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682033556419:android:ea2b626891d12b44322b76",
+        "android_client_info": {
+          "package_name": "com.example.databaseaccess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682033556419-banmsuh71jp8b99mfjj4s6dst8hp8pd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALMwUGZtUzwSk1z_TiM2Lq1nltfaUkI48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682033556419-banmsuh71jp8b99mfjj4s6dst8hp8pd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

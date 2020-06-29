@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_open_SQLite_db"
+        android:title="SQLite DataBase"
+        android:icon="@drawable/sql_icon" />
+
+    <item
+        android:id="@+id/menu_open_mongo_db"
+        android:title="MongoDB"
+        android:icon="@drawable/mongo_db"/>
+</menu>
